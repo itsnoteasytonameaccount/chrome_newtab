@@ -1,0 +1,153 @@
+{
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "主题",
+    "name": "custom theme",
+    "author": "佚名",
+    "theme": {
+        "images": {
+            // 整体框（不活跃的标签，顶部边框等）
+            "theme_frame": "assets/planet.png",
+            // 未获得焦点时的整体框
+            // "theme_frame_inactive": "assets/planet.png",
+            // 无痕窗口整体框背景
+            // "theme_frame_incognito": "assets/planet.png",
+            // 未获得焦点时的整体框背景
+            // "theme_frame_incognito_inactive": "assets/planet.png",
+            // 工具栏背景（地址栏、当前活跃的标签）
+            // "theme_toolbar": "assets/planet.png",
+            // 不活跃的标签背景
+            // "theme_tab_background": "assets/planet.png",
+            // 未获得焦点时的标签背景
+            // "theme_tab_background_inactive": "assets/planet.png",
+            // 无痕窗口标签背景
+            // "theme_tab_background_incognito": "assets/planet.png",
+            // 未获得焦点时的无痕窗口标签背景
+            // "theme_tab_background_incognito_inactive": "assets/planet.png",
+            // 顶部边框背景
+            // "theme_frame_overlay": "assets/planet.png",
+            // 未获得焦点时的顶部边框背景
+            // "theme_frame_overlay_inactive": "assets/planet.png",
+            // new tab page新标签页背景
+            "theme_ntp_background": "assets/planet.png",
+            // new tab page设置了背景时，显示背景创建者
+            // "theme_ntp_attribution": "assets/favo.png",
+            // 窗口控制按钮背景
+            // "theme_window_control_background": "assets/planet.png",
+            // 以下两个不知有何用
+            "theme_tab_background_v": "assets/planet.png",
+            "theme_button_background": "assets/planet.png"
+        },
+        "colors": {
+            // 整体框，可以加_inactive,_incognito,_incognito_inactive
+            "frame": [
+                71,
+                105,
+                91
+                // 所有颜色第四个可以设置透明度
+                //,0.1
+            ],
+            // 未选中的标签背景色，会被背景图覆盖，可以加_inactive,_incognito,_incognito_inactive
+            "background_tab": [
+                100,
+                100,
+                100
+            ],
+            // 选中的标签文字颜色，也会影响标签间分隔线及标签'x'图标颜色
+            // "tab_text": [
+            //     0,
+            //     255,
+            //     255
+            // ],
+            // 未选中的标签文字颜色，也会影响标签间分隔线及标签'x'图标颜色
+            // "tab_background_text": [
+            //     100,
+            //     100,
+            //     100
+            // ],
+            // 工具栏背景色，包括被选中的标签
+            "toolbar": [
+                50,
+                50,
+                50
+            ],
+            // 工具栏图标颜色
+            // "toolbar_button_icon": [
+            //     0,
+            //     255,
+            //     255
+            // ],
+            // 新标签页文字颜色
+            // "ntp_text": [
+            //     255,
+            //     0,
+            //     0
+            // ]
+            // 新标签页背景色
+            "ntp_background": [
+                50,
+                50,
+                50
+            ],
+            // 关闭、最大最小化按钮背景色
+            // "button_background": [
+            //     255,
+            //     0,
+            //     0
+            // ],
+            // 地址栏下方书签栏文字颜色
+            "bookmark_text": [
+                255,
+                255,
+                255
+            ]
+            // 地址栏文字色
+            // "omnibox_text": [
+            //     255,
+            //     0,
+            //     0
+            // ],
+            // 地址栏背景色
+            // "omnibox_background": [
+            //     50,
+            //     150,
+            //     230
+            // ]
+            // 以下两个作用未知
+            // "ntp_link"
+            // "ntp_header"
+        },
+        // 色彩调整
+        "tints": {
+            // 需要未定义对应颜色，格式为[色调,饱和度,亮度]
+            // 色调取值0-1端点为红色,没法说明，参考ps的色调
+            // 饱和度大于0.5才看得出色调调的颜色，0.5为原始颜色
+            // 亮度0.5为原始亮度，1纯白，0纯暗
+            // 工具栏图标颜色
+            "buttons": [
+                1,
+                0.5,
+                0.9
+            ],
+            // 可取值
+            // "buttons"
+            // "frame"
+            // "frame_inactive"
+            // "frame_incognito"
+            // "frame_incognito_inactive"
+            "background_tab": [
+                1,
+                0.3,
+                0.4
+            ]
+        },
+        "properties": {
+            // 背景图片对齐方式,格式同background-position
+            "ntp_background_alignment": "left -80px",
+            // 背景图片重复,格式同background-repeat
+            "ntp_background_repeat": "no-repeat",
+            // 备用图标
+            "ntp_logo_alternate": "assets/favo.png"
+        }
+    }
+}
